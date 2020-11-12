@@ -1,0 +1,924 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-12T04:47:26.879Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2221000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.specialSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as a store manager",
+        "description": "",
+        "id": "login;login-as-a-store-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 230000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 208000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.specialTearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 462000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 396000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as a store manager",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a_store_manager()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2107000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:26.985Z",
+        "before": [
+          {
+            "result": {
+              "duration": 205000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login as a sales manager",
+        "description": "",
+        "id": "login;login-as-a-sales-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 240000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1523000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logs in as a sales manager",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a_sales_manager()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.000Z",
+        "before": [
+          {
+            "result": {
+              "duration": 126000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login as a driver",
+        "description": "",
+        "id": "login;login-as-a-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user logs in as a driver",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_logs_in_as_a_driver()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.015Z",
+        "before": [
+          {
+            "result": {
+              "duration": 195000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login with different credentials as user10",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 81000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1155000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"user10\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user10\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.025Z",
+        "before": [
+          {
+            "result": {
+              "duration": 183000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login with different credentials as user15",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 450000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"user15\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user15\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.034Z",
+        "before": [
+          {
+            "result": {
+              "duration": 185000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Login with different credentials as user22",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 384000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"user22\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user22\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 128000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login with different credentials as user110",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 263000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"user110\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user110\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 182000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Login with different credentials as storemanager85",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 156000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 384000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"storemanager85\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager85\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.084Z",
+        "before": [
+          {
+            "result": {
+              "duration": 170000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Login with different credentials as storemanager120",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 68000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 385000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"storemanager120\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager120\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T04:47:27.093Z",
+        "before": [
+          {
+            "result": {
+              "duration": 156000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login with different credentials as storemanager56",
+        "description": "",
+        "id": "login;login-with-different-credentials-as-\u003cusername\u003e;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 65000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 321000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"storemanager56\" and \"UserUser123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager56\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to see the Dashboard page title",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_the_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user, I want to be able to login with valid username and password",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-12T04:47:27.106Z",
+        "before": [
+          {
+            "result": {
+              "duration": 188000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Create a vehicle",
+        "description": "",
+        "id": "create-vehicle;create-a-vehicle",
+        "after": [
+          {
+            "result": {
+              "duration": 53000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 354000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateVehicleStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in with \"storemanager85\" and \"UserUser123\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager85\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"UserUser123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.vytrack.step_definitions.CreateVehicleStepDefinitions.user_logs_in_with_and_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.vytrack.step_definitions.CreateVehicleStepDefinitions.user_navigates_to_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the create car button",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateVehicleStepDefinitions.user_clicks_on_the_create_car_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5647000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters vehicles\u0027 information:",
+            "match": {
+              "location": "com.vytrack.step_definitions.CreateVehicleStepDefinitions.user_enters_vehicles_information(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "License Plate",
+                  "Driver",
+                  "Location",
+                  "Model Year",
+                  "Color"
+                ]
+              },
+              {
+                "cells": [
+                  "test_plate",
+                  "SDET",
+                  "Tampa",
+                  "2020",
+                  "Blue"
+                ]
+              },
+              {
+                "cells": [
+                  "Java_is_fun",
+                  "Developer",
+                  "Chicago",
+                  "2015",
+                  "Black"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vehicle"
+          }
+        ]
+      }
+    ],
+    "name": "Create vehicle",
+    "description": "  As a user, I want to be able to create vehicles",
+    "id": "create-vehicle",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Vehicle.feature",
+    "tags": [
+      {
+        "name": "@vehicle",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
