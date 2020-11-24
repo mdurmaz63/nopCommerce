@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CucumberPractice" />
+        <module name="NopCommerce" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14" />

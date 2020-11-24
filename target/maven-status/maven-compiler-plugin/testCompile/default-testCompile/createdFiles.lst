@@ -1,10 +1,5 @@
-com/vytrack/utils/Driver.class
-com/vytrack/step_definitions/Hooks.class
-com/vytrack/pages/BasePage.class
-com/vytrack/pages/LoginPage.class
-com/vytrack/runners/TestRunner.class
-com/vytrack/step_definitions/CreateVehicleStepDefinitions.class
-com/vytrack/step_definitions/LoginStepDefinitions.class
-com/vytrack/utils/BrowserUtils.class
-com/vytrack/utils/ConfigurationReader.class
-com/vytrack/pages/LoginTest.class
+com/nopCommerce/pages/AddCustomerPage.class
+com/nopCommerce/pages/LoginPage.class
+com/nopCommerce/step_definitions/BaseClass.class
+com/nopCommerce/runners/Runner.class
+com/nopCommerce/step_definitions/Steps.class

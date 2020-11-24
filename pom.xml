@@ -28,8 +28,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
+                    <threadCount>2</threadCount>
+                    <perCoreThreadCount>false</perCoreThreadCount>
+                 <!--   <useUnlimitedThreads>true</useUnlimitedThreads>-->
+                    <parallel>methods</parallel>
                     <includes>
-                        <include>**/*Runner.java</include>
+                        <include>**/*Runner*.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
